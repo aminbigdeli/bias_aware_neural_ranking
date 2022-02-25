@@ -91,7 +91,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
   <tr>
     <td class="tg-0lax" rowspan="6"><a href="https://github.com/navid-rekabsaz/GenderBias_IR/blob/master/resources/queries_gender_annotated.csv" target="_top"> QS1</td>
     <td class="tg-0lax" rowspan="2">BERT<br>(base uncased)</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/bert_base_uncased/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/bert_base_uncased/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.3494</td>
     <td class="tg-8d8j">0.7764</td>
     <td class="tg-8d8j">-</td>
@@ -101,7 +101,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
     <td class="tg-8d8j">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/bert_base_uncased/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/bert_base_uncased/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.3266</td>
     <td class="tg-8d8j">0.8673</td>
     <td class="tg-8d8j">11.71%</td>
@@ -112,7 +112,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">DistilRoBERTa <br>(base)</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/distilroberta_base/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/distilroberta_base/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.3382</td>
     <td class="tg-8d8j">0.7805</td>
     <td class="tg-8d8j">-</td>
@@ -122,7 +122,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
     <td class="tg-8d8j">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/distilroberta_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/distilroberta_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.3152</td>
     <td class="tg-8d8j">0.8806</td>
     <td class="tg-8d8j">12.83%</td>
@@ -133,7 +133,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">ELECTRA<br>(base)</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/electra_base/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/electra_base/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.3265</td>
     <td class="tg-8d8j">0.7808</td>
     <td class="tg-8d8j">-</td>
@@ -143,7 +143,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
     <td class="tg-8d8j">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/electra_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/1765_neutral_queries/electra_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.3018</td>
     <td class="tg-8d8j">0.8767</td>
     <td class="tg-8d8j">12.28%</td>
@@ -155,7 +155,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
   <tr>
     <td class="tg-0lax" rowspan="6"><a href="https://github.com/CPJKU/FairnessRetrievalResults/blob/main/dataset/msmarco_passage.dev.fair.tsv" target="_top"> QS2</td>
     <td class="tg-0lax" rowspan="2">BERT<br>(base uncased)</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_base_uncased/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_base_uncased/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.2229</td>
     <td class="tg-8d8j">0.8779</td>
     <td class="tg-8d8j">-</td>
@@ -165,7 +165,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
     <td class="tg-8d8j">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_base_uncased/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_base_uncased/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.2265</td>
     <td class="tg-8d8j">0.9549</td>
     <td class="tg-8d8j">8.77%</td>
@@ -176,7 +176,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">DistilRoBERTa <br>(base)</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/distilroberta_base/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/distilroberta_base/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.2198</td>
     <td class="tg-8d8j">0.8799</td>
     <td class="tg-8d8j">-</td>
@@ -186,7 +186,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
     <td class="tg-8d8j">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/distilroberta_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/distilroberta_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.2135</td>
     <td class="tg-8d8j">0.9581</td>
     <td class="tg-8d8j">8.89%</td>
@@ -197,7 +197,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">ELECTRA<br>(base)</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/electra_base/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/electra_base/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.2296</td>
     <td class="tg-8d8j">0.8857</td>
     <td class="tg-8d8j">-</td>
@@ -207,7 +207,7 @@ We adopt two bias measurement metrics to calculate the level of biases within th
     <td class="tg-8d8j">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/electra_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/electra_base/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-8d8j">0.2081</td>
     <td class="tg-8d8j">0.9572</td>
     <td class="tg-8d8j">8.07%</td>
@@ -243,7 +243,7 @@ We also compare our proposed strategy with ADVBERT which is the state-of-the-art
 <tbody>
   <tr>
     <td class="tg-0lax" rowspan="3">BERT-Tiny</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_tiny/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_tiny/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-7zrl">0.1750</td>
     <td class="tg-7zrl">0.8688</td>
     <td class="tg-7zrl">-</td>
@@ -253,7 +253,7 @@ We also compare our proposed strategy with ADVBERT which is the state-of-the-art
     <td class="tg-7zrl">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">ADVBERT <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_tiny/ranked_list_advbert_tiny.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">ADVBERT <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_tiny/ranked_list_advbert_tiny.trec" target="_top"> (Run)</td>
     <td class="tg-7zrl">0.1361</td>
     <td class="tg-7zrl">0.9257</td>
     <td class="tg-7zrl">6.55%</td>
@@ -263,7 +263,7 @@ We also compare our proposed strategy with ADVBERT which is the state-of-the-art
     <td class="tg-7zrl">20.27%</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_tiny/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_tiny/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-7zrl">0.1497</td>
     <td class="tg-7zrl">0.9752</td>
     <td class="tg-7zrl">12.25%</td>
@@ -274,7 +274,7 @@ We also compare our proposed strategy with ADVBERT which is the state-of-the-art
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="3">BERT-Mini</td>
-    <td class="tg-7zrl">Original <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_mini/ranked_list_original.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Original <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_mini/ranked_list_original.trec" target="_top"> (Run)</td>
     <td class="tg-7zrl">0.2053</td>
     <td class="tg-7zrl">0.8742</td>
     <td class="tg-7zrl">-</td>
@@ -284,7 +284,7 @@ We also compare our proposed strategy with ADVBERT which is the state-of-the-art
     <td class="tg-7zrl">-</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">ADVBERT <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_mini/ranked_list_advbert_mini.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">ADVBERT <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_mini/ranked_list_advbert_mini.trec" target="_top"> (Run)</td>
     <td class="tg-7zrl">0.1515</td>
     <td class="tg-7zrl">0.9410</td>
     <td class="tg-7zrl">7.64%</td>
@@ -294,7 +294,7 @@ We also compare our proposed strategy with ADVBERT which is the state-of-the-art
     <td class="tg-7zrl">87.26%</td>
   </tr>
   <tr>
-    <td class="tg-7zrl">Ours <br><a href="https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_mini/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
+    <td class="tg-7zrl">Ours <br><a href="https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/trec_runs/215_neutral_queries/bert_mini/ranked_list_fairness_aware.trec" target="_top"> (Run)</td>
     <td class="tg-7zrl">0.2000</td>
     <td class="tg-7zrl">0.9683</td>
     <td class="tg-7zrl">10.76%</td>
@@ -328,4 +328,4 @@ python MRR_calculator.py \
  -run path to the re-ranked run file obtained from the previous step \
  -result path to result
 ```
-5. Finally, to calculate the level of bias using ARaB metric and NFaiRR metrics for the re-ranked run files you can use the provided scripts that are taken from Navid Rekabsaz repositories ([ARaB](https://github.com/navid-rekabsaz/GenderBias_IR) and [NFaiRR](https://github.com/CPJKU/FairnessRetrievalResults)) and just have some minor changes so as to be applied for our work. In order to caluclate ARaB you frist need to run [`documents_calculate_bias.py`](https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/bias_metrics/ARaB/documents_calculate_bias.py) script to calculate the level of bias within each document. Subsequently, you need to use [`runs_calculate_bias.py`](https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/bias_metrics/ARaB/runs_calculate_bias.py) and [`model_calculate_bias.py`](https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/bias_metrics/ARaB/model_calculate_bias.py) scripts for calculating the TF ARab and TF Boolean metrics. Finally, to calculate the level of Fairness for the re-reanked runs, you need to first run [`calc_documents_neutrality.py`](https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/bias_metrics/NFaiRR/calc_documents_neutrality.py) to calucalte the level of fairness within each document and then run [`metrics_fairness.py`](https://github.com/lightweight-fairness/fairness_aware_neural_ranking/blob/main/bias_metrics/NFaiRR/metrics_fairness.py) to calculate NFaiRR metric over the run file.
+5. Finally, to calculate the level of bias using ARaB metric and NFaiRR metrics for the re-ranked run files you can use the provided scripts that are taken from Navid Rekabsaz repositories ([ARaB](https://github.com/navid-rekabsaz/GenderBias_IR) and [NFaiRR](https://github.com/CPJKU/FairnessRetrievalResults)) and just have some minor changes so as to be applied for our work. In order to caluclate ARaB you frist need to run [`documents_calculate_bias.py`](https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/bias_metrics/ARaB/documents_calculate_bias.py) script to calculate the level of bias within each document. Subsequently, you need to use [`runs_calculate_bias.py`](https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/bias_metrics/ARaB/runs_calculate_bias.py) and [`model_calculate_bias.py`](https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/bias_metrics/ARaB/model_calculate_bias.py) scripts for calculating the TF ARab and TF Boolean metrics. Finally, to calculate the level of Fairness for the re-reanked runs, you need to first run [`calc_documents_neutrality.py`](https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/bias_metrics/NFaiRR/calc_documents_neutrality.py) to calucalte the level of fairness within each document and then run [`metrics_fairness.py`](https://github.com/aminbigdeli/bias_aware_neural_ranking/blob/main/bias_metrics/NFaiRR/metrics_fairness.py) to calculate NFaiRR metric over the run file.
